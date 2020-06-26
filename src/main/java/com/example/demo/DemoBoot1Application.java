@@ -1,9 +1,12 @@
 package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
+
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-@ComponentScan("com.example.demo")
+
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
 @SpringBootApplication
 public class DemoBoot1Application {
 
